@@ -12,5 +12,5 @@ jobs:
         uses: kpenfound/dagger-action@main
         with:
           args: ci-remote --commit $GITHUB_SHA
-          module: github.com/kpenfound/greetings-api/ci
+          module: github.com/nekia/greetings-api/ci
           cloud-token: ${{ secrets.DAGGER_CLOUD_TOKEN }}
