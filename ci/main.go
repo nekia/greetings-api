@@ -7,8 +7,8 @@ import (
 
 const (
 	APP = "dagger-demo"
-	REPO = "github.com/kpenfound/greetings-api"
-	IMAGE = "kylepenfound/greetings-api:latest"
+	REPO = "github.com/nekia/greetings-api"
+	IMAGE = "nekia/greetings-api:latest"
 )
 
 type Greetings struct{}
